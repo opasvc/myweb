@@ -9,7 +9,7 @@ const templates = {
         accent: "#292d99",
         title: "重庆市从业人员健康合格证明",
         fields: ["name", "idCard", "age", "gender", "accessCode", "createDate"],
-        htmlUrl: "/templates/重庆模板.html"
+        htmlUrl: `${process.env.PUBLIC_URL}/templates/重庆模板.html`
     },
     zhengzhou: {
         name: "郑州模板",
@@ -17,7 +17,7 @@ const templates = {
         accent: "#01a6e6",
         title: "郑州市从业人员健康证明",
         fields: ["name", "idCard", "age", "gender", "accessCode", "createDate"],
-        htmlUrl: "/templates/郑州模板.html"
+        htmlUrl: `${process.env.PUBLIC_URL}/templates/郑州模板.html`
     }
 };
 
