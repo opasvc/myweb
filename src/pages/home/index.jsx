@@ -275,12 +275,12 @@ function Home() {
                         </label>
 
                         <label className="form-item">
-                            <span>身份证号</span>
+                            <span>编号</span>
                             <input
                                 name="idCard"
                                 value={form.idCard}
                                 onChange={handleChange}
-                                placeholder="请输入身份证号"
+                                placeholder="请输入编号证号"
                             />
                         </label>
 
